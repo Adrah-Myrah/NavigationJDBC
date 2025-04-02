@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 public class userData {
-     private static final String url = "jdbc:mysql://localhost:3306/datainput_db";
+      static final String url = "jdbc:mysql://localhost:3306/datainput_db";
     private static final String user = "root";
     private static final String password = "";
 

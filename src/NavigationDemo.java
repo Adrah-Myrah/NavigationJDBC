@@ -81,7 +81,7 @@ public class NavigationDemo {
         formPanel.add(new JLabel("Sex:"));
         genderComboBox = new JComboBox<>(gender);
         formPanel.add(genderComboBox);
-        String[] country = {"Uganda", "Kenya","southsudan" "Tanzania", "Rwanda", "Congo", "Burundi"};
+        String[] country = {"Uganda", "Kenya","southsudan", "Tanzania", "Rwanda", "Congo", "Burundi"};
         formPanel.add(new JLabel("Country:"));
         countryComboBox = new JComboBox<>(country);
         formPanel.add(countryComboBox);

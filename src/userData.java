@@ -3,9 +3,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
 public class userData {
-    private static final String url = "jdbc:mysql://localhost:3306/datainput_db";
-    private static final String user = "root";
-    private static final String password = "";
+      static final String url = "jdbc:mysql://localhost:3306/datainput_db";
+     static final String user = "root";
+     static final String password = "";
 
     public static void saveData() {
         String sql = "INSERT INTO dataentry (fullname,date_of_birth,nationality,sex,country,marital_status,feedback) VALUES (?, ?, ?, ?, ?, ?, ?)";
@@ -22,8 +22,8 @@ public class userData {
 
             int rowsAffected = preparedStatement.executeUpdate();
             if (rowsAffected > 0) {
-                System.out.println("Data saved successfully!");
-            }
+                System.out.println("Data has been saved");
+                    }
 
         } catch (Exception ex) {
             System.err.println("Error: " + ex.getMessage());
@@ -31,3 +31,14 @@ public class userData {
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+

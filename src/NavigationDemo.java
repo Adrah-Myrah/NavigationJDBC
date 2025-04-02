@@ -8,7 +8,7 @@ import javax.swing.DefaultListModel;
 
 public class NavigationDemo {
     JFrame frame1, frame2;
-    private DefaultListModel listModel;
+     DefaultListModel listModel;
     JList<String> recordList;
     JTextField fullNameField, dateOfBirthField, nationalityField;
     JComboBox<String> genderComboBox, countryComboBox, statusComboBox;
@@ -81,19 +81,19 @@ public class NavigationDemo {
         formPanel.add(new JLabel("Sex:"));
         genderComboBox = new JComboBox<>(gender);
         formPanel.add(genderComboBox);
-        String[] country = {"Uganda", "Kenya", "Tanzania", "Rwanda", "Congo", "Burundi"};
+        String[] country = {"Uganda", "Kenya","southsudan", "Tanzania", "Rwanda", "Congo", "Burundi"};
         formPanel.add(new JLabel("Country:"));
         countryComboBox = new JComboBox<>(country);
         formPanel.add(countryComboBox);
-        String[] status = {"Single", "Married", "Widowed"};
+        String[] status = {"Single", "Married", "Widowed","taken for granted","single for life"};
         formPanel.add(new JLabel("Marital Status:"));
         statusComboBox = new JComboBox<>(status);
         formPanel.add(statusComboBox);
         formPanel.add(new JLabel("Feedback:"));
         feedbackTextArea = new JTextArea(5, 10);
         formPanel.add(feedbackTextArea);
-        formPanel.setBackground(Color.WHITE);
-        formPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        formPanel.setBackground(Color.BLACK);
+        formPanel.setBorder(BorderFactory.createLineBorder(Color.lightGray));
         formPanel.setPreferredSize(new Dimension(600, 400));
 
         return formPanel;

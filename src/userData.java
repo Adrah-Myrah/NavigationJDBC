@@ -22,7 +22,6 @@ public class userData {
 
             int rowsAffected = preparedStatement.executeUpdate();
             if (rowsAffected > 0) {
-                System.out.println("ata has been saved");
                 System.out.println("Data has been saved");
                 System.out.println("ata has been saved");
             }

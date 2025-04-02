@@ -85,7 +85,7 @@ public class NavigationDemo {
         formPanel.add(new JLabel("Country:"));
         countryComboBox = new JComboBox<>(country);
         formPanel.add(countryComboBox);
-        String[] status = {"Single", "Married", "Widowed"};
+        String[] status = {"Single", "Married", "Widowed","taken for granted",};
         formPanel.add(new JLabel("Marital Status:"));
         statusComboBox = new JComboBox<>(status);
         formPanel.add(statusComboBox);

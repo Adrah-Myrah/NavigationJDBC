@@ -93,7 +93,7 @@ public class NavigationDemo {
         feedbackTextArea = new JTextArea(5, 10);
         formPanel.add(feedbackTextArea);
         formPanel.setBackground(Color.BLACK);
-        formPanel.setBorder(BorderFactory.createLineBorder(Color.BLACK));
+        formPanel.setBorder(BorderFactory.createLineBorder(Color.lightGray));
         formPanel.setPreferredSize(new Dimension(600, 400));
 
         return formPanel;

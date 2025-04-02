@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 public class userData {
       static final String url = "jdbc:mysql://localhost:3306/datainput_db";
      static final String user = "root";
-    private static final String password = "";
+     static final String password = "";
 
     public static void saveData() {
         String sql = "INSERT INTO dataentry (fullname,date_of_birth,nationality,sex,country,marital_status,feedback) VALUES (?, ?, ?, ?, ?, ?, ?)";

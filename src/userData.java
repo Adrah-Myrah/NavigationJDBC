@@ -23,8 +23,7 @@ public class userData {
             int rowsAffected = preparedStatement.executeUpdate();
             if (rowsAffected > 0) {
                 System.out.println("Data has been saved");
-               
-            }
+                    }
 
         } catch (Exception ex) {
             System.err.println("Error: " + ex.getMessage());

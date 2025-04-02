@@ -4,7 +4,7 @@ import java.sql.PreparedStatement;
 
 public class userData {
       static final String url = "jdbc:mysql://localhost:3306/datainput_db";
-    private static final String user = "root";
+     static final String user = "root";
     private static final String password = "";
 
     public static void saveData() {

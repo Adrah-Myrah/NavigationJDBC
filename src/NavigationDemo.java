@@ -8,7 +8,7 @@ import javax.swing.DefaultListModel;
 
 public class NavigationDemo {
     JFrame frame1, frame2;
-    private DefaultListModel listModel;
+     DefaultListModel listModel;
     JList<String> recordList;
     JTextField fullNameField, dateOfBirthField, nationalityField;
     JComboBox<String> genderComboBox, countryComboBox, statusComboBox;
